@@ -1,0 +1,1926 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- SEO BÁSICO -->
+<title>conzzepta — Consultora Estratégica y Creativa de Marca</title>
+<meta name="description" content="conzzepta es una consultora estratégica creativa especializada en construcción de marca, posicionamiento e identidad. Ayudamos a marcas a definirse, diferenciarse y crecer con coherencia.">
+<meta name="keywords" content="consultora de marca, estrategia de marca, identidad de marca, posicionamiento, dirección creativa, branding, consultoría creativa, construcción de marca">
+<meta name="author" content="Pol Rego — conzzepta">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://conzzepta.es/">
+
+<!-- OPEN GRAPH (LinkedIn, Facebook, WhatsApp) -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://conzzepta.es/">
+<meta property="og:title" content="conzzepta — Consultora Estratégica y Creativa de Marca">
+<meta property="og:description" content="Construimos marcas desde dentro. Estrategia, identidad y dirección creativa para marcas que quieren posicionarse con coherencia y criterio.">
+<meta property="og:image" content="https://conzzepta.es/zzz.png">
+<meta property="og:locale" content="es_ES">
+<meta property="og:site_name" content="conzzepta">
+
+<!-- TWITTER CARD -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://conzzepta.es/">
+<meta name="twitter:title" content="conzzepta — Consultora Estratégica y Creativa de Marca">
+<meta name="twitter:description" content="Construimos marcas desde dentro. Estrategia, identidad y dirección creativa para marcas que quieren posicionarse con coherencia y criterio.">
+<meta name="twitter:image" content="https://conzzepta.es/zzz.png">
+
+<!-- DATOS ESTRUCTURADOS (Google) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "conzzepta",
+  "description": "Consultora estratégica creativa especializada en construcción de marca, posicionamiento e identidad creativa.",
+  "url": "https://conzzepta.es",
+  "logo": "https://conzzepta.es/zzz.png",
+  "founder": {
+    "@type": "Person",
+    "name": "Pol Rego"
+  },
+  "email": "info@conzzepta.es",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "ES"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/conzzepta/",
+    "https://www.instagram.com/conzzepta/"
+  ],
+  "serviceType": [
+    "Estrategia de marca",
+    "Identidad creativa",
+    "Posicionamiento de marca",
+    "Dirección creativa",
+    "Arquitectura de marca",
+    "Consultoría de branding"
+  ]
+}
+</script>
+
+<link rel="icon" type="image/png" href="/zzz.png">
+<link rel="apple-touch-icon" href="/zzz.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --blue: #1C0CFB;
+    --orange: #FF7B00;
+    --white: #FFFFFF;
+    --blue-dark: #1008CC;
+    --blue-deep: #0A0580;
+    --orange-light: #FF9A33;
+    --orange-pale: #FFF0E0;
+    --text-on-blue: #FFFFFF;
+    --text-on-white: #0A0580;
+    --gray-soft: #F5F5FA;
+    --gray-mid: #C8C7E8;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Manrope', sans-serif;
+    background: var(--white);
+    color: var(--blue-deep);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .logo {
+    font-family: 'Manrope', sans-serif;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background: var(--blue);
+    padding: 0 5%;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(255,123,0,0.4);
+  }
+
+  .logo {
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--white);
+    letter-spacing: 0.02em;
+    text-transform: none;
+  }
+
+  .logo span {
+    color: var(--orange);
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 36px;
+    list-style: none;
+  }
+
+  .nav-links a {
+    color: rgba(255,255,255,0.75);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    transition: color 0.2s;
+  }
+
+  .nav-links a:hover { color: var(--orange); }
+
+  .nav-cta {
+    background: var(--orange);
+    color: var(--white) !important;
+    padding: 9px 22px;
+    border-radius: 3px;
+    font-weight: 600 !important;
+    transition: background 0.2s !important;
+  }
+
+  .nav-cta:hover { background: var(--orange-light) !important; color: var(--white) !important; }
+
+  /* ── HERO ── */
+  .hero {
+    background: var(--blue);
+    min-height: 70vh;
+    padding: 60px 5% 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    right: -10%;
+    top: -10%;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    border: 80px solid rgba(255,123,0,0.12);
+    pointer-events: none;
+  }
+
+  .hero::after {
+    content: '';
+    position: absolute;
+    right: 5%;
+    bottom: -5%;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 40px solid rgba(255,123,0,0.08);
+    pointer-events: none;
+  }
+
+  .hero-text {
+    padding: 80px 0;
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero-eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--orange);
+    font-weight: 600;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .hero-eyebrow::before {
+    content: '';
+    display: inline-block;
+    width: 28px;
+    height: 2px;
+    background: var(--orange);
+  }
+
+  .hero h1 {
+    font-size: clamp(42px, 5.5vw, 76px);
+    font-weight: 800;
+    color: var(--white);
+    line-height: 1.08;
+    letter-spacing: -0.02em;
+    margin-bottom: 28px;
+  }
+
+  .hero h1 em {
+    font-style: normal;
+    color: var(--orange);
+  }
+
+  .hero-sub {
+    font-size: 17px;
+    line-height: 1.8;
+    color: var(--white);
+    font-weight: 300;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .btn-primary {
+    background: var(--orange);
+    color: var(--white);
+    padding: 15px 32px;
+    border-radius: 3px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background 0.2s, transform 0.2s;
+    display: inline-block;
+  }
+
+  .btn-primary:hover { background: var(--orange-light); transform: translateY(-2px); }
+
+  .btn-ghost {
+    color: rgba(255,255,255,0.6);
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.2s;
+  }
+
+  .btn-ghost:hover { color: var(--white); }
+
+  .btn-ghost::after {
+    content: '→';
+    font-size: 18px;
+  }
+
+  .hero-visual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,123,0,0.25);
+    border-radius: 8px;
+    padding: 40px;
+    width: 360px;
+    backdrop-filter: blur(10px);
+  }
+
+  .hero-card-title {
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--orange);
+    margin-bottom: 28px;
+    font-weight: 600;
+  }
+
+  .hero-card-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .step-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+    position: relative;
+  }
+
+  .step-item:last-child { border-bottom: none; }
+
+  .step-num {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--blue-dark);
+    border: 1px solid rgba(255,123,0,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--orange);
+    flex-shrink: 0;
+  }
+
+  .step-content strong {
+    display: block;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--white);
+    margin-bottom: 3px;
+  }
+
+  .step-content span {
+    font-size: 12px;
+    color: rgba(255,255,255,0.45);
+    line-height: 1.5;
+  }
+
+  /* ── STRIP ── */
+  .strip {
+    background: var(--orange);
+    padding: 18px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    overflow: visible;
+    position: relative;
+    z-index: 10;
+  }
+
+  .strip-item {
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--white);
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    cursor: default;
+  }
+
+  .strip-item::before {
+    content: '◆';
+    font-size: 8px;
+    opacity: 0.6;
+  }
+
+  .strip-tooltip {
+    position: absolute;
+    bottom: calc(100% + 16px);
+    left: 50%;
+    transform: translateX(-50%) translateY(6px);
+    background: var(--blue-deep);
+    color: rgba(255,255,255,0.85);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    text-transform: none;
+    line-height: 1.6;
+    padding: 14px 18px;
+    border-radius: 6px;
+    width: 220px;
+    white-space: normal;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    border: 1px solid rgba(255,123,0,0.25);
+    z-index: 100;
+  }
+
+  .strip-tooltip::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 6px solid transparent;
+    border-top-color: var(--blue-deep);
+  }
+
+  .strip-tooltip strong {
+    display: block;
+    color: var(--orange);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+
+  .strip-item:hover .strip-tooltip {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+
+  /* ── PROBLEM SECTION ── */
+  .problem {
+    background: var(--white);
+    padding: 120px 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+  }
+
+  .section-tag {
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--orange);
+    font-weight: 600;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .section-tag::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    background: var(--orange);
+  }
+
+  .problem h2 {
+    font-size: clamp(32px, 3.5vw, 50px);
+    font-weight: 800;
+    color: var(--blue);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    margin-bottom: 24px;
+  }
+
+  .problem p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 16px;
+  }
+
+  .problem-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  .prob-card {
+    background: var(--blue);
+    border-radius: 6px;
+    padding: 16px 16px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .prob-card::after {
+    content: '';
+    position: absolute;
+    bottom: -12px;
+    right: -12px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgba(255,123,0,0.15);
+  }
+
+  .prob-card-icon {
+    display: none;
+  }
+
+  .prob-card h4 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 6px;
+    line-height: 1.3;
+  }
+
+  .prob-card p {
+    font-size: 12px;
+    color: rgba(255,255,255,0.5);
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  /* ── WHAT WE DO ── */
+  .services {
+    background: var(--blue);
+    padding: 120px 5%;
+  }
+
+  .services-header {
+    text-align: center;
+    margin-bottom: 64px;
+  }
+
+  .services-header h2 {
+    font-size: clamp(34px, 4vw, 56px);
+    font-weight: 800;
+    color: var(--white);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+  }
+
+  .services-header h2 span { color: var(--orange); }
+
+  .services-header p {
+    font-size: 16px;
+    color: rgba(255,255,255,0.55);
+    max-width: 520px;
+    margin: 18px auto 0;
+    line-height: 1.7;
+  }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    border: 2px solid rgba(255,123,0,0.2);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .service-item {
+    background: rgba(255,255,255,0.03);
+    padding: 44px 36px;
+    border-right: 2px solid rgba(255,123,0,0.1);
+    transition: background 0.25s;
+    position: relative;
+  }
+
+  .service-item:last-child { border-right: none; }
+
+  .service-item:hover { background: rgba(255,123,0,0.06); }
+
+  .service-num {
+    font-family: 'Manrope', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.15em;
+    color: var(--orange);
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .service-item h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 14px;
+    line-height: 1.2;
+  }
+
+  .service-item p {
+    font-size: 14px;
+    color: rgba(255,255,255,0.5);
+    line-height: 1.7;
+  }
+
+  .service-line {
+    width: 36px;
+    height: 2px;
+    background: var(--orange);
+    margin-bottom: 20px;
+    transition: width 0.3s;
+  }
+
+  .service-item:hover .service-line { width: 60px; }
+
+  /* ── METHOD ── */
+  .method {
+    background: var(--white);
+    padding: 120px 5%;
+  }
+
+  .method-header {
+    margin-bottom: 64px;
+    max-width: 600px;
+  }
+
+  .method-header h2 {
+    font-size: clamp(32px, 3.5vw, 52px);
+    font-weight: 800;
+    color: var(--blue);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+  }
+
+  .method-header p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 16px;
+    line-height: 1.7;
+  }
+
+  .method-steps {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0;
+    position: relative;
+  }
+
+  .method-steps::before {
+    content: '';
+    position: absolute;
+    top: 32px;
+    left: 10%;
+    width: 80%;
+    height: 2px;
+    background: linear-gradient(90deg, var(--blue), var(--orange));
+    z-index: 0;
+  }
+
+  .method-step {
+    padding: 0 16px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .method-dot {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: var(--blue);
+    border: 3px solid var(--white);
+    outline: 2px solid var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 24px;
+    transition: background 0.2s, outline-color 0.2s;
+  }
+
+  .method-step:hover .method-dot {
+    background: var(--orange);
+    outline-color: var(--orange);
+  }
+
+  .method-step h4 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--blue);
+    margin-bottom: 8px;
+  }
+
+  .method-step p {
+    font-size: 13px;
+    color: #777;
+    line-height: 1.6;
+  }
+
+  /* ── PHILOSOPHY ── */
+  .philosophy {
+    background: var(--blue);
+    padding: 120px 5%;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 80px;
+    align-items: center;
+  }
+
+  .philosophy-left h2 {
+    font-size: clamp(32px, 4vw, 54px);
+    font-weight: 800;
+    color: var(--white);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    margin-bottom: 24px;
+  }
+
+  .philosophy-left h2 em {
+    font-style: normal;
+    color: var(--orange);
+  }
+
+  .philosophy-left p {
+    font-size: 15px;
+    color: rgba(255,255,255,0.55);
+    line-height: 1.8;
+    margin-bottom: 16px;
+  }
+
+  .philosophy-quote {
+    margin-top: 40px;
+    padding: 28px 32px;
+    border-left: 3px solid var(--orange);
+    background: rgba(255,123,0,0.06);
+    border-radius: 0 6px 6px 0;
+  }
+
+  .philosophy-quote p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--white) !important;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  .philosophy-values {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  .val-card {
+    padding: 16px 16px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 6px;
+    transition: border-color 0.2s;
+  }
+
+  .val-card:hover { border-color: rgba(255,123,0,0.4); }
+
+  .val-icon {
+    display: none;
+  }
+
+  .val-card h4 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 6px;
+  }
+
+  .val-card p {
+    font-size: 13px;
+    color: rgba(255,255,255,0.45);
+    line-height: 1.6;
+  }
+
+  /* ── ABOUT ── */
+  .about {
+    background: var(--blue);
+    padding: 120px 5%;
+  }
+
+  .about-inner {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 80px;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .about-left {
+    position: relative;
+  }
+
+  .about-initials {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: rgba(255,123,0,0.12);
+    border: 2px solid rgba(255,123,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--orange);
+    margin-bottom: 32px;
+    letter-spacing: 0.05em;
+  }
+
+  .about-name {
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 6px;
+    letter-spacing: -0.01em;
+  }
+
+  .about-role {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--orange);
+    margin-bottom: 32px;
+  }
+
+  .about-divider {
+    width: 40px;
+    height: 2px;
+    background: rgba(255,255,255,0.15);
+  }
+
+  .about-right p {
+    font-size: 16px;
+    color: rgba(255,255,255,0.7);
+    line-height: 1.9;
+    margin-bottom: 20px;
+  }
+
+  .about-right p:last-of-type {
+    margin-bottom: 40px;
+  }
+
+  .about-right strong {
+    color: var(--white);
+    font-weight: 600;
+  }
+
+  .about-quote {
+    padding: 24px 28px;
+    border-left: 3px solid var(--orange);
+    background: rgba(255,123,0,0.06);
+    border-radius: 0 6px 6px 0;
+  }
+
+  .about-quote p {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    color: var(--white) !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
+    font-style: italic;
+  }
+
+  @media (max-width: 900px) {
+    .about-inner { grid-template-columns: 1fr; gap: 48px; }
+  }
+
+  /* ── FOR WHOM ── */
+  .forwhom {
+    background: var(--white);
+    padding: 120px 5%;
+  }
+
+  .forwhom-header {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .forwhom-header h2 {
+    font-size: clamp(32px, 3.5vw, 52px);
+    font-weight: 800;
+    color: var(--blue);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+  }
+
+  .forwhom-header h2 span { color: var(--orange); }
+
+  .forwhom-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .fw-card {
+    padding: 36px 28px;
+    border: 1px solid #E0E0F0;
+    border-radius: 8px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .fw-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: var(--orange);
+    transform: scaleX(0);
+    transition: transform 0.3s;
+    transform-origin: left;
+  }
+
+  .fw-card:hover {
+    border-color: rgba(28,12,251,0.2);
+    box-shadow: 0 8px 40px rgba(28,12,251,0.06);
+  }
+
+  .fw-card:hover::before { transform: scaleX(1); }
+
+  .fw-num {
+    font-family: 'Manrope', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: rgba(28,12,251,0.06);
+    line-height: 1;
+    margin-bottom: 16px;
+  }
+
+  .fw-card h3 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--blue);
+    margin-bottom: 10px;
+    line-height: 1.3;
+  }
+
+  .fw-card p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.7;
+  }
+
+  /* ── CTA ── */
+  .cta {
+    background: var(--orange);
+    padding: 120px 5%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cta::before {
+    content: 'ZZ';
+    position: absolute;
+    font-family: 'Manrope', sans-serif;
+    font-size: 400px;
+    font-weight: 800;
+    color: rgba(255,255,255,0.06);
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    pointer-events: none;
+    line-height: 1;
+  }
+
+  .cta h2 {
+    font-size: clamp(36px, 5vw, 68px);
+    font-weight: 800;
+    color: var(--white);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  .cta p {
+    font-size: 17px;
+    color: rgba(255,255,255,0.75);
+    max-width: 500px;
+    margin: 0 auto 44px;
+    line-height: 1.7;
+    position: relative;
+  }
+
+  .btn-cta-white {
+    background: var(--white);
+    color: var(--orange);
+    padding: 17px 42px;
+    border-radius: 3px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: transform 0.2s;
+    display: inline-block;
+    position: relative;
+  }
+
+  .btn-cta-white:hover { transform: translateY(-3px); }
+
+  /* ── CONTACT FORM ── */
+  .contact-form-section {
+    background: var(--white);
+    padding: 120px 5%;
+  }
+
+  .contact-form-inner {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 80px;
+    align-items: start;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .contact-form-left h2 {
+    font-size: clamp(32px, 3.5vw, 52px);
+    font-weight: 800;
+    color: var(--blue);
+    line-height: 1.08;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+
+  .contact-form-left h2 span { color: var(--orange); }
+
+  .contact-form-left p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 40px;
+  }
+
+  .contact-info-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+  }
+
+  .contact-info-item a {
+    font-size: 14px;
+    color: var(--blue);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+
+  .contact-info-item a:hover { color: var(--orange); }
+
+  .contact-info-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--orange);
+    flex-shrink: 0;
+  }
+
+  .form-wrap {
+    background: var(--blue);
+    border-radius: 10px;
+    padding: 48px 44px;
+  }
+
+  .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.5);
+    margin-bottom: 8px;
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 4px;
+    padding: 13px 16px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    color: var(--white);
+    outline: none;
+    transition: border-color 0.2s, background 0.2s;
+    -webkit-appearance: none;
+  }
+
+  .form-group select option {
+    background: var(--blue-deep);
+    color: var(--white);
+  }
+
+  .form-group input::placeholder,
+  .form-group textarea::placeholder {
+    color: rgba(255,255,255,0.25);
+  }
+
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    border-color: var(--orange);
+    background: rgba(255,123,0,0.05);
+  }
+
+  .form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+    line-height: 1.6;
+  }
+
+  .btn-form-submit {
+    width: 100%;
+    background: var(--orange);
+    color: var(--white);
+    border: none;
+    padding: 16px 32px;
+    border-radius: 4px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+    margin-top: 8px;
+  }
+
+  .btn-form-submit:hover {
+    background: var(--orange-light);
+    transform: translateY(-2px);
+  }
+
+  .form-success {
+    display: none;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .form-success-icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
+
+  .form-success h3 {
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 10px;
+  }
+
+  .form-success p {
+    font-size: 14px;
+    color: rgba(255,255,255,0.55);
+    line-height: 1.7;
+  }
+
+  @media (max-width: 900px) {
+    .contact-form-inner { grid-template-columns: 1fr; gap: 48px; }
+    .form-row { grid-template-columns: 1fr; }
+    .form-wrap { padding: 32px 24px; }
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--blue-deep);
+    padding: 60px 5% 32px;
+  }
+
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    gap: 40px;
+  }
+
+  .footer-brand .logo {
+    font-size: 26px;
+    margin-bottom: 12px;
+    display: block;
+  }
+
+  .footer-brand p {
+    font-size: 13px;
+    color: rgba(255,255,255,0.4);
+    max-width: 260px;
+    line-height: 1.7;
+  }
+
+  .footer-links h5 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--orange);
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+
+  .footer-links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-links a {
+    font-size: 14px;
+    color: rgba(255,255,255,0.45);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .footer-links a:hover { color: var(--white); }
+
+  .footer-bottom {
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-bottom p {
+    font-size: 12px;
+    color: rgba(255,255,255,0.25);
+  }
+
+  .footer-tagline {
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    color: rgba(255,123,0,0.6);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  /* ── LOGO HERO ── */
+  .logo-hero {
+    background: var(--blue);
+    padding-top: 68px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 60px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .logo-hero-text {
+    font-family: 'Manrope', sans-serif;
+    font-size: clamp(80px, 18vw, 220px);
+    font-weight: 800;
+    color: var(--white);
+    letter-spacing: -0.03em;
+    line-height: 1;
+    position: relative;
+    z-index: 2;
+    user-select: none;
+  }
+
+  .logo-hero-zz {
+    color: var(--orange);
+  }
+
+  .logo-hero-slogan {
+    font-family: 'Manrope', sans-serif;
+    font-size: clamp(13px, 1.6vw, 20px);
+    font-weight: 300;
+    color: var(--orange);
+    letter-spacing: 0.28em;
+    text-transform: none;
+    margin-top: 44px;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* ── QUIÉNES SOMOS ── */
+  .quienes {
+    background: var(--white);
+    padding: 120px 5%;
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 80px;
+    align-items: center;
+  }
+
+  .quienes-left {
+    position: relative;
+  }
+
+  .quienes-left h2 {
+    font-size: clamp(36px, 4.5vw, 62px);
+    font-weight: 800;
+    color: var(--blue);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+
+  .quienes-left h2 span {
+    color: var(--orange);
+  }
+
+  .quienes-left .section-tag {
+    color: var(--orange);
+  }
+
+  .quienes-right p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.9;
+    margin-bottom: 20px;
+  }
+
+  .quienes-right strong {
+    color: var(--blue);
+    font-weight: 700;
+  }
+
+  .quienes-pillars {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 36px;
+  }
+
+  .quienes-pillar {
+    padding: 20px 18px;
+    border: 1px solid #E0E0F0;
+    border-radius: 6px;
+    border-top: 3px solid var(--orange);
+    transition: box-shadow 0.2s;
+  }
+
+  .quienes-pillar:hover {
+    box-shadow: 0 6px 30px rgba(28,12,251,0.07);
+  }
+
+  .quienes-pillar h4 {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--blue);
+    margin-bottom: 5px;
+    letter-spacing: 0.02em;
+  }
+
+  .quienes-pillar p {
+    font-size: 12px !important;
+    color: #888 !important;
+    line-height: 1.5 !important;
+    margin: 0 !important;
+  }
+
+  @media (max-width: 900px) {
+    .quienes { grid-template-columns: 1fr; gap: 48px; }
+    .quienes-pillars { grid-template-columns: 1fr; }
+  }
+
+  /* ── STRIKE HOVER ── */
+  .strike-hover {
+    position: relative;
+    cursor: default;
+    display: inline-block;
+  }
+
+  .strike-hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 3px;
+    background: var(--white);
+    transition: width 0.35s ease;
+    transform: translateY(-50%);
+  }
+
+  .strike-hover:hover::after {
+    width: 100%;
+  }
+
+  .construye-hover {
+    display: inline-block;
+    cursor: default;
+    transition: transform 0.3s ease, letter-spacing 0.3s ease;
+    transform-origin: left center;
+  }
+
+  .construye-hover:hover {
+    transform: scale(1.06);
+    letter-spacing: 0.01em;
+  }
+
+  /* ── ANIMATIONS ── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .hero-text { animation: fadeUp 0.8s ease both; }
+  .hero-visual { animation: fadeUp 0.8s ease 0.2s both; }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 900px) {
+    .hero { grid-template-columns: 1fr; padding-top: 100px; }
+    .hero-visual { display: none; }
+    .problem { grid-template-columns: 1fr; gap: 40px; }
+    .services-grid { grid-template-columns: 1fr; }
+    .service-item { border-right: none; border-bottom: 2px solid rgba(255,123,0,0.1); }
+    .method-steps { grid-template-columns: 1fr 1fr; gap: 32px; }
+    .method-steps::before { display: none; }
+    .philosophy { grid-template-columns: 1fr; gap: 48px; }
+    .forwhom-grid { grid-template-columns: 1fr; }
+    .footer-top { flex-direction: column; }
+    .strip { gap: 24px; flex-wrap: wrap; }
+    .nav-links { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="logo" style="text-decoration:none;">con<span>zz</span>epta</a>
+  <ul class="nav-links">
+    <li><a href="#quienes">Quiénes somos</a></li>
+    <li><a href="#services">Servicios</a></li>
+    <li><a href="#method">Método</a></li>
+    <li><a href="#philosophy">Filosofía</a></li>
+    <li><a href="#contact" class="nav-cta">Trabajemos</a></li>
+  </ul>
+</nav>
+
+<!-- LOGO HERO -->
+<div class="logo-hero">
+  <span class="logo-hero-text">con<span class="logo-hero-zz">zz</span>epta</span>
+  <p class="logo-hero-slogan">"Architecture before exposure"</p>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <p class="hero-eyebrow">Consultora Estratégica Creativa</p>
+    <h1>Antes de<br><span class="strike-hover">exponer</span>,<br><em class="construye-hover">construye.</em></h1>
+    <p class="hero-sub">
+      La mayoría de marcas comunican antes de definir quiénes son. conzzepta construye la arquitectura que hace que todo lo que sigue tenga coherencia, fuerza y dirección.
+    </p>
+    <div class="hero-actions">
+      <a href="mailto:info@conzzepta.es?subject=Quiero%20iniciar%20un%20proyecto&body=Hola%2C%20me%20gustar%C3%ADa%20hablar%20sobre%20mi%20proyecto." class="btn-primary">Iniciar proyecto</a>
+      <a href="#method" class="btn-ghost">Cómo trabajamos</a>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="hero-card">
+      <p class="hero-card-title">El proceso conzzepta</p>
+      <div class="hero-card-steps">
+        <div class="step-item">
+          <div class="step-num">01</div>
+          <div class="step-content">
+            <strong>Análisis</strong>
+            <span>Diagnóstico profundo de la marca y su contexto</span>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">02</div>
+          <div class="step-content">
+            <strong>Estrategia</strong>
+            <span>Definición del territorio y posicionamiento</span>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">03</div>
+          <div class="step-content">
+            <strong>Identidad</strong>
+            <span>Construcción visual, verbal y conceptual</span>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">04</div>
+          <div class="step-content">
+            <strong>Dirección</strong>
+            <span>Sistema de marca y coherencia sostenida</span>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">05</div>
+          <div class="step-content">
+            <strong>Exposición</strong>
+            <span>Presencia con propósito y narrativa</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STRIP -->
+<div class="strip">
+  <span class="strip-item">Estrategia de marca
+    <span class="strip-tooltip"><strong>Estrategia de marca</strong>Define el propósito, la dirección y el valor diferencial de tu marca. Es la base que guía todas las decisiones de comunicación y negocio.</span>
+  </span>
+  <span class="strip-item">Identidad creativa
+    <span class="strip-tooltip"><strong>Identidad creativa</strong>Traduce la estrategia en lenguaje visual y verbal: nombre, tono, estética y códigos propios. Lo que hace que tu marca sea reconocible y coherente.</span>
+  </span>
+  <span class="strip-item">Dirección de marca
+    <span class="strip-tooltip"><strong>Dirección de marca</strong>Garantiza que la marca se exprese con criterio en cada canal y formato. Mantiene la coherencia cuando cambian los contextos o los equipos.</span>
+  </span>
+  <span class="strip-item">Posicionamiento estratégico
+    <span class="strip-tooltip"><strong>Posicionamiento estratégico</strong>Define el lugar que ocupa tu marca en la mente de tu cliente. Qué territorio propio tienes, cómo te diferencias y por qué te eligen a ti.</span>
+  </span>
+  <span class="strip-item">Arquitectura de marca
+    <span class="strip-tooltip"><strong>Arquitectura de marca</strong>Ordena y sistematiza todos los elementos de la marca para que funcionen como un sistema coherente, escalable y sostenible en el tiempo.</span>
+  </span>
+</div>
+
+<!-- QUIÉNES SOMOS -->
+<section class="quienes" id="quienes">
+  <div class="quienes-left">
+    <p class="section-tag">Quiénes somos</p>
+    <h2>Una consultora creativa con <span>método propio</span></h2>
+  </div>
+  <div class="quienes-right">
+    <p>conzzepta es una <strong>consultora estratégica creativa</strong> especializada en estructurar el posicionamiento de marcas y negocios. No trabajamos con fórmulas genéricas ni con soluciones de copy-paste.</p>
+    <p>Hemos desarrollado nuestro propio método de trabajo — <strong>Zoom to Zenith</strong> — un sistema replicable que nos permite intervenir en cualquier marca con precisión: entendiendo primero, definiendo después, construyendo siempre con criterio.</p>
+    <p>Creemos que <strong>una marca bien estructurada no necesita gritar</strong>. Solo necesita saber quién es, qué lugar ocupa y cómo comunicarlo con coherencia.</p>
+    <div class="quienes-pillars">
+      <div class="quienes-pillar">
+        <h4>Método propio</h4>
+        <p>Zoom to Zenith: un sistema desarrollado por conzzepta para intervenir marcas con orden y precisión.</p>
+      </div>
+      <div class="quienes-pillar">
+        <h4>Enfoque estratégico</h4>
+        <p>Primero la arquitectura. Luego la exposición. Nunca al revés.</p>
+      </div>
+      <div class="quienes-pillar">
+        <h4>Creatividad con fondo</h4>
+        <p>No decoramos. Construimos identidades que responden a una lógica estratégica real.</p>
+      </div>
+      <div class="quienes-pillar">
+        <h4>Resultados con coherencia</h4>
+        <p>Marcas que se reconocen, se diferencian y crecen sin perder su esencia.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- THIN LINE -->
+<div style="width:100%; height:2px; background:var(--orange);"></div>
+
+<!-- PROBLEM -->
+<section class="problem" id="services">
+  <div>
+    <p class="section-tag">El problema real</p>
+    <h2>Tu marca comunica antes de saber qué es</h2>
+    <p>Muchos negocios creen que necesitan más contenido, más campañas o más alcance. Lo que realmente necesitan es construir primero una identidad sólida.</p>
+    <p>Sin arquitectura, la exposición solo amplifica el desorden. Eso es lo que conzzepta corrige.</p>
+  </div>
+  <div class="problem-cards">
+    <div class="prob-card">
+      <span class="prob-card-icon" style="color:rgba(0,0,0,0.15);">▰</span>
+      <h4>Mensajes genéricos</h4>
+      <p>Sin diferenciación real ni territorio propio</p>
+    </div>
+    <div class="prob-card">
+      <span class="prob-card-icon">◈</span>
+      <h4>Imagen inconsistente</h4>
+      <p>Identidad dispersa que no genera reconocimiento</p>
+    </div>
+    <div class="prob-card">
+      <span class="prob-card-icon">◎</span>
+      <h4>Sin dirección</h4>
+      <p>Crecimiento improvisado sin arquitectura detrás</p>
+    </div>
+    <div class="prob-card">
+      <span class="prob-card-icon">▲</span>
+      <h4>Valor no percibido</h4>
+      <p>Dificultad para justificar precio y construir autoridad</p>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services">
+  <div class="services-header">
+    <p class="section-tag" style="justify-content:center; color:var(--orange);">Lo que hacemos</p>
+    <h2>Construimos marcas desde <span>dentro</span></h2>
+    <p>No ejecutamos por ejecutar. Primero entendemos, definimos y ordenamos. Luego exponemos.</p>
+    <p style="font-family:'Manrope',sans-serif; font-size:18px; font-weight:300; color:var(--orange); margin-top:16px; letter-spacing:0.25em;">Zoom to Zenith</p>
+  </div>
+  <div class="services-grid">
+    <div class="service-item">
+      <p class="service-num">01 — Análisis</p>
+      <div class="service-line"></div>
+      <h3>Diagnóstico estratégico</h3>
+      <p>Estudiamos la marca en profundidad: su contexto, mercado, competencia, fracturas y oportunidades reales. No datos por datos, sino entendimiento real.</p>
+    </div>
+    <div class="service-item">
+      <p class="service-num">02 — Estrategia</p>
+      <div class="service-line"></div>
+      <h3>Posicionamiento y territorio</h3>
+      <p>Definimos quién eres, qué lugar ocupas, qué valor aportas y desde dónde te diferencias. Aquí se construye el núcleo que sostiene todo lo demás.</p>
+    </div>
+    <div class="service-item">
+      <p class="service-num">03 — Identidad</p>
+      <div class="service-line"></div>
+      <h3>Construcción de marca</h3>
+      <p>Traducimos la estrategia en identidad: lenguaje visual, tono de voz, códigos estéticos y arquitectura verbal. La marca se vuelve reconocible.</p>
+    </div>
+    <div class="service-item">
+      <p class="service-num">04 — Sistema</p>
+      <div class="service-line"></div>
+      <h3>Arquitectura de marca</h3>
+      <p>Ordenamos y sistematizamos para que las decisiones futuras tengan coherencia. La marca deja de ser una suma de ocurrencias y se convierte en un sistema.</p>
+    </div>
+    <div class="service-item">
+      <p class="service-num">05 — Dirección</p>
+      <div class="service-line"></div>
+      <h3>Dirección creativa</h3>
+      <p>Dirigimos la expresión de la marca con criterio estratégico. Mantenemos coherencia incluso cuando cambian formatos, canales o tendencias.</p>
+    </div>
+    <div class="service-item">
+      <p class="service-num">06 — Exposición</p>
+      <div class="service-line"></div>
+      <h3>Presencia estratégica</h3>
+      <p>Solo cuando la marca tiene estructura definimos cómo mostrarse, dónde y con qué narrativa. Visibilidad con sentido, no ruido sin dirección.</p>
+    </div>
+  </div>
+</section>
+
+<!-- METHOD -->
+<section class="method" id="method">
+  <div class="method-header">
+    <p class="section-tag">Nuestro método</p>
+    <h2>Un sistema, no intuiciones aisladas</h2>
+    <p>conzzepta tiene una lógica de trabajo replicable. Una forma profesional y precisa de intervenir en cualquier marca.</p>
+  </div>
+  <div class="method-steps">
+    <div class="method-step">
+      <div class="method-dot">01</div>
+      <h4>Entender</h4>
+      <p>Análisis completo de la empresa, su realidad y su contexto competitivo.</p>
+    </div>
+    <div class="method-step">
+      <div class="method-dot">02</div>
+      <h4>Definir</h4>
+      <p>Estrategia clara: dirección, posicionamiento y valor diferencial.</p>
+    </div>
+    <div class="method-step">
+      <div class="method-dot">03</div>
+      <h4>Construir</h4>
+      <p>Identidad visual, verbal y conceptual coherente y precisa.</p>
+    </div>
+    <div class="method-step">
+      <div class="method-dot">04</div>
+      <h4>Ordenar</h4>
+      <p>Sistema de marca que sostiene la coherencia en el tiempo.</p>
+    </div>
+    <div class="method-step">
+      <div class="method-dot">05</div>
+      <h4>Exponer</h4>
+      <p>Presencia estratégica con narrativa, propósito y dirección.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PHILOSOPHY -->
+<section class="philosophy" id="philosophy">
+  <div class="philosophy-left">
+    <p class="section-tag" style="color:rgba(255,123,0,1);">Nuestra filosofía</p>
+    <h2>Una marca fuerte nace de la <em>arquitectura</em>, no del ruido.</h2>
+    <p>Rechazamos la improvisación como sistema. Rechazamos el marketing vacío, la estética sin fondo y la obsesión por la visibilidad sin identidad.</p>
+    <p>Defendemos la claridad, la coherencia, la intención y la profundidad estratégica. Una creatividad que no adorna, sino que construye.</p>
+    <div class="philosophy-quote">
+      <p>"Sin arquitectura, la exposición solo amplifica el desorden."</p>
+    </div>
+  </div>
+  <div class="philosophy-values">
+    <div class="val-card">
+      <div class="val-icon">◆</div>
+      <h4>Claridad</h4>
+      <p>Todo debe ser comprensible, directo y preciso. Sin ambigüedad estratégica.</p>
+    </div>
+    <div class="val-card">
+      <div class="val-icon">◈</div>
+      <h4>Coherencia</h4>
+      <p>Cada decisión responde a la lógica de marca. Nada sucede por azar.</p>
+    </div>
+    <div class="val-card">
+      <div class="val-icon">▲</div>
+      <h4>Estructura</h4>
+      <p>La solidez de una marca viene de su arquitectura interna, no de su visibilidad.</p>
+    </div>
+    <div class="val-card">
+      <div class="val-icon">◎</div>
+      <h4>Criterio</h4>
+      <p>Sabemos qué debe hacerse, qué no, y por qué. Eso es lo que diferencia.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+  <div class="about-inner">
+    <div class="about-left">
+      <div class="about-initials">PR</div>
+      <p class="about-name">Pol Rego</p>
+      <p class="about-role">Fundador de conzzepta</p>
+      <div class="about-divider"></div>
+    </div>
+    <div class="about-right">
+      <p>Soy <strong>Pol Rego</strong>, y conzzepta es mi forma de trabajar con marcas que quieren construirse bien desde dentro.</p>
+      <p>Me apasiona el <strong>marketing y la creatividad estratégica</strong> — no como fin, sino como herramienta para ayudar a las marcas a conectar con la gente adecuada. No con más ruido, sino con más claridad.</p>
+      <p>Creo que la mayoría de marcas no necesitan más exposición. Necesitan primero saber bien quiénes son. Desde ahí trabajo, con honestidad y con método.</p>
+      <div class="about-quote">
+        <p>"En conzzepta hacemos que cada marca encuentre su lugar de forma auténtica y estratégica."</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOR WHOM -->
+<section class="forwhom">
+  <div class="forwhom-header">
+    <p class="section-tag" style="justify-content:center;">Para quién es</p>
+    <h2>Marcas que entienden que su problema no se<br>soluciona con <span>más publicidad</span></h2>
+  </div>
+  <div class="forwhom-grid">
+    <div class="fw-card">
+      <div class="fw-num">01</div>
+      <h3>Marcas que quieren profesionalizar su presencia</h3>
+      <p>Lo que proyectas no está al nivel de lo que realmente eres. Es hora de cerrar esa brecha.</p>
+    </div>
+    <div class="fw-card">
+      <div class="fw-num">02</div>
+      <h3>Negocios que han crecido sin sistema</h3>
+      <p>Tienes actividad pero no dirección. Volumen pero no coherencia. Necesitas orden estratégico.</p>
+    </div>
+    <div class="fw-card">
+      <div class="fw-num">03</div>
+      <h3>Proyectos que empiezan y quieren construir bien</h3>
+      <p>Desde el principio, con fundamento. Porque es más fácil construir bien que reconstruir mal.</p>
+    </div>
+    <div class="fw-card">
+      <div class="fw-num">04</div>
+      <h3>Marcas que necesitan reposicionarse</h3>
+      <p>Para ocupar un lugar más sólido, más claro o más premium en tu mercado.</p>
+    </div>
+    <div class="fw-card">
+      <div class="fw-num">05</div>
+      <h3>Empresas con potencial sin orden</h3>
+      <p>Tienes la base, el producto, el equipo. Lo que falta es la arquitectura que lo articule.</p>
+    </div>
+    <div class="fw-card">
+      <div class="fw-num">06</div>
+      <h3>Marcas que no quieren parches</h3>
+      <p>No buscas acciones aisladas. Buscas transformación real con base estratégica sólida.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT FORM -->
+<section class="contact-form-section" id="contact">
+  <div class="contact-form-inner">
+    <div class="contact-form-left">
+      <p class="section-tag">Contacto</p>
+      <h2>Cuéntanos<br>tu <span>proyecto</span></h2>
+      <p>Sin compromisos. Rellena el formulario y te respondemos en menos de 48 horas con honestidad estratégica.</p>
+      <div class="contact-info-item">
+        <div class="contact-info-dot"></div>
+        <a href="mailto:info@conzzepta.es">info@conzzepta.es</a>
+      </div>
+      <div class="contact-info-item">
+        <div class="contact-info-dot"></div>
+        <a href="https://www.linkedin.com/company/conzzepta/about/?viewAsMember=true" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+      <div class="contact-info-item">
+        <div class="contact-info-dot"></div>
+        <a href="https://www.instagram.com/conzzepta/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+    <div class="form-wrap">
+      <form id="contactForm" action="https://formspree.io/f/xgopjlen" method="POST">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+          </div>
+          <div class="form-group">
+            <label for="empresa">Empresa / Marca</label>
+            <input type="text" id="empresa" name="empresa" placeholder="Nombre de tu marca">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+        </div>
+        <div class="form-group">
+          <label for="tipo">¿Qué necesitas?</label>
+          <select id="tipo" name="tipo" required>
+            <option value="" disabled selected>Selecciona un servicio</option>
+            <option value="Diagnóstico estratégico">Diagnóstico estratégico</option>
+            <option value="Posicionamiento y territorio">Posicionamiento y territorio</option>
+            <option value="Construcción de marca">Construcción de marca</option>
+            <option value="Arquitectura de marca">Arquitectura de marca</option>
+            <option value="Dirección creativa">Dirección creativa</option>
+            <option value="Presencia estratégica">Presencia estratégica</option>
+            <option value="No lo sé aún">No lo sé aún, quiero hablar</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="presupuesto">Inversión estimada</label>
+          <select id="presupuesto" name="presupuesto" required>
+            <option value="" disabled selected>Selecciona un rango</option>
+            <option value="Menos de 1.000€">Menos de 1.000€</option>
+            <option value="1.000€ — 3.000€">1.000€ — 3.000€</option>
+            <option value="3.000€ — 6.000€">3.000€ — 6.000€</option>
+            <option value="6.000€ — 10.000€">6.000€ — 10.000€</option>
+            <option value="Más de 10.000€">Más de 10.000€</option>
+            <option value="Aún no lo sé">Aún no lo sé</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Cuéntanos más</label>
+          <textarea id="mensaje" name="mensaje" placeholder="Describe brevemente tu proyecto, en qué punto estás y qué quieres conseguir..." required></textarea>
+        </div>
+        <button type="submit" class="btn-form-submit">Enviar solicitud</button>
+      </form>
+      <div class="form-success" id="formSuccess">
+        <div class="form-success-icon">◆</div>
+        <h3>Mensaje recibido</h3>
+        <p>Gracias por contactar con conzzepta. Te respondemos en menos de 48 horas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta" id="contact">
+  <h2>¿Listo para construir<br>tu marca con criterio?</h2>
+  <p>Hablemos de tu proyecto. Sin compromisos. Con la honestidad estratégica que define a conzzepta.</p>
+  <a href="mailto:info@conzzepta.es?subject=Quiero%20iniciar%20una%20conversaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20hablar%20sobre%20mi%20proyecto." class="btn-cta-white">Iniciar conversación</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <span class="logo">con<span>zz</span>epta</span>
+      <p>Consultora estratégica creativa. Construimos marcas desde la estructura para que puedan posicionarse, expresarse y crecer con coherencia.</p>
+    </div>
+    <div class="footer-links">
+      <h5>Servicios</h5>
+      <ul>
+        <li><a href="#services">Estrategia de marca</a></li>
+        <li><a href="#services">Identidad creativa</a></li>
+        <li><a href="#services">Dirección de marca</a></li>
+        <li><a href="#services">Posicionamiento</a></li>
+      </ul>
+    </div>
+    <div class="footer-links">
+      <h5>Empresa</h5>
+      <ul>
+        <li><a href="#philosophy">Sobre conzzepta</a></li>
+        <li><a href="#method">Método</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </div>
+    <div class="footer-links">
+      <h5>Contacto</h5>
+      <ul>
+        <li><a href="mailto:info@conzzepta.es">info@conzzepta.es</a></li>
+        <li><a href="https://www.linkedin.com/company/conzzepta/about/?viewAsMember=true" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://www.instagram.com/conzzepta/" target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
+    </div>
+  </div>
+  <div c
+<script>
+  const form = document.getElementById('contactForm');
+  const success = document.getElementById('formSuccess');
+  if (form) {
+    form.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const data = new FormData(form);
+      const response = await fetch(form.action, {
+        method: 'POST',
+        body: data,
+        headers: { 'Accept': 'application/json' }
+      });
+      if (response.ok) {
+        form.style.display = 'none';
+        success.style.display = 'block';
+      } else {
+        alert('Hubo un error al enviar. Por favor escríbenos directamente a info@conzzepta.es');
+      }
+    });
+  }
+</script>
+</body>
+</html>
